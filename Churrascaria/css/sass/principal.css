@@ -462,4 +462,52 @@ header {
 
 #contato .cartao input {
   color: #391005;
+  border: none;
+}
+
+#contato .cartao input::-moz-placeholder {
+  color: #ae986F;
+  font-style: italic;
+}
+
+#contato .cartao input:-ms-input-placeholder {
+  color: #ae986F;
+  font-style: italic;
+}
+
+#contato .cartao input::placeholder {
+  color: #ae986F;
+  font-style: italic;
+}
+
+#contato .cartao textarea::-moz-placeholder {
+  color: #ae986F;
+  font-style: italic;
+  text-align: center;
+}
+
+#contato .cartao textarea:-ms-input-placeholder {
+  color: #ae986F;
+  font-style: italic;
+  text-align: center;
+}
+
+#contato .cartao textarea::placeholder {
+  color: #ae986F;
+  font-style: italic;
+  text-align: center;
+}
+
+.contato-btn {
+  color: #f1c70a;
+  background: #391005;
+  border-color: #f1c70a;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+.contato-btn:hover {
+  background: #f1c70a;
+  border-color: #391005;
+  color: #391005;
 }/*# sourceMappingURL=principal.css.map */
