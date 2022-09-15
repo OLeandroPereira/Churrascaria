@@ -33,20 +33,17 @@
     <!--#INICIO - CABECALHO DA PÁGINA: REDES SOCIAIS -->
 
     <div class="container-fluid p-2 info" id="icones-topo">
-      <div class="row">
-        <div class="col d-flex justify-content-center justify-content-md-between justify-content-sm-between align-items-baseline flex-wrap">
-          <div class="p-2 info-icones">
-            <a href="#" class="mr-2" alt="facebook"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
-            <a href="#" class="mr-2" alt="instagram"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
-            <a href="#" class="mr-2" alt="twitter"><i class="fa-brands fa-square-twitter fa-2x"></i></a>
-            <a href="#" class="mr-2" alt="whatsapp"><i class="fa-brands fa-square-whatsapp fa-2x"></i></a>
-          </div>
-
-          <h2 id="logo" class="p-2 text-capitalize">
-            <a href="#" title="Voltar ao Início">São Paulo, SP</a>
-          </h2>
+        <div class="row">
+            <div class="col d-flex justify-content-center justify-content-md-between justify-content-sm-between align-items-baseline flex-wrap">
+                <div class="p-2 info-icones">
+                    <a href="#" class="mr-2" alt="facebook"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+                    <a href="#" class="mr-2" alt="instagram"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+                    <a href="#" class="mr-2" alt="twitter"><i class="fa-brands fa-square-twitter fa-2x"></i></a>
+                    <a href="#" class="mr-2" alt="whatsapp"><i class="fa-brands fa-square-whatsapp fa-2x"></i></a>
+                </div>
+            </div>
+            <h2 id="logo" class="p-2 text-capitalize"><a href="#" title="Voltar ao Início">São Paulo, SP</a></h2>
         </div>
-      </div>
     </div>
 
     <!--#FIM - CABECALHO DA PÁGINA: REDES SOCIAIS -->
@@ -68,7 +65,7 @@
         </div>
       </div>
 
-      <a href="#" class="btn btn-adiante"><i class="fas fa-arrow-down" alt="Ir para a próxima sessão do site."></i></a>
+      <a href="#cardapio" class="btn btn-adiante"><i class="fas fa-arrow-down" alt="Ir para a próxima sessão do site."></i></a>
     </header>
     <!-- #FIM = CABEÇALHO DA PÁGINA: ÁREA DESTINADA AO BANNER PRINCIPAL-->
 
@@ -86,13 +83,13 @@
 
       <div class="collapse navbar-collapse" id="minhaNavBar">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item"><a href="#" class="nav-link text-capitalize">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-capitalize">Cardápio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-capitalize">Sobre</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-capitalize">Recomendações</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-capitalize">Equipe</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-capitalize">Cozinha</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-capitalize">Contatos</a></li>
+          <li class="nav-item"><a href="#icones-topo" class="nav-link text-capitalize">Home</a></li>
+          <li class="nav-item"><a href="#cardapio" class="nav-link text-capitalize">Cardápio</a></li>
+          <li class="nav-item"><a href="#sobre" class="nav-link text-capitalize">Sobre</a></li>
+          <li class="nav-item"><a href="#recomendacoes" class="nav-link text-capitalize">Recomendações</a></li>
+          <li class="nav-item"><a href="#equipe" class="nav-link text-capitalize">Equipe</a></li>
+          <li class="nav-item"><a href="#cozinha" class="nav-link text-capitalize">Cozinha</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link text-capitalize">Contatos</Contatos</a></li>
         </ul>
 
         <form class="form-inline d-none d-lg-block mr-5">
@@ -109,7 +106,7 @@
       
         <!-- #INÍCIO: Pratos e Porções-->
       <div class="container my-5">
-        <h1 class="text-center"><i class="fas fa-utensils"></i><br />Pratos & Porções</h1>
+        <h1 class="text-center"><i class="fas fa-utensils"></i><br/>Pratos & Porções</h1>
 
         <div class="carrosel row parent-container">
           <!-- Item 01 do Cardápio -->
@@ -238,7 +235,7 @@
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi omnis impedit blanditiis, temporibus ab quasi veniam expedita commodi iure necessitatibus quaerat voluptatibus, cumque possimus! Alias quae reiciendis explicabo nesciunt quia?
                   </h2>
 
-                  <a href="#" class="btn pedir-btn my-4 text-capitalize">Leia Mais</a>
+                  <a href="#sobre" class="btn pedir-btn my-4 text-capitalize">Leia Mais</a>
               </div>
 
               <div class="col-md-5 col-sm-12 fotos-churrascaria">
@@ -371,7 +368,7 @@
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi omnis impedit blanditiis, temporibus ab quasi veniam expedita commodi iure necessitatibus quaerat voluptatibus, cumque possimus! Alias quae reiciendis explicabo nesciunt quia?
                   </h2>
 
-                  <a href="#" style="float: right" class="btn pedir-btn my-4 text-capitalize">Leia Mais</a>
+                  <a href="#cozinha" style="float: right" class="btn pedir-btn my-4 text-capitalize">Leia Mais</a>
               </div>
 
               
@@ -464,71 +461,97 @@
 
     <!-- #Início Contato -->
     <section id="contato">
-        <div class="container-fluid no-padding">
-            <div class="row">
-                <div class="col-md-6 my-3">
-                    <div class="embed-responsive by9 mapa">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d88802.11544168433!2d-46.75707749213027!3d-23.63402933274969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1663011031302!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-
-                <div class="col-md-6 my-3 align-self-center">
-                    <div class="cartao text-center">
-                        <div class="cartao-cabecalho text-uppercase">
-                            <h1 class="text-uppercase">Entre em Contato</h1>
-                        </div>
-
-                        <div class="corpo-cartao">
-                            <form>
-                              <!-- #Início - Grupo de caixas de texto -->
-                              <div class="input-group my-3">
-                                  <div class="input-group prepend">
-                                      <span class="input-group-text" id="input-text">
-                                          <i class="fas fa-user"></i>
-                                      </span>    
-                                      <input type="text" id="text" class="form-control form-control-lg" placeholder="Informe o seu nome aqui...">
-                                  </div>
+      <div class="container-fluid no-padding">
+          <div class="row">
+              <div class="col-md-6 my-3">
+                  <div class="embed-responsive by9 mapa">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58523.16196889953!2d-46.64228146557617!3d-23.543375620161637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597d462f58ad%3A0x1e5241e2e17b7c17!2sS%C3%A3o+Paulo!5e0!3m2!1spt-BR!2sbr!4v1539870849495" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+              </div>
+  
+          <div class="col-md-6 my-3 align-self-center">
+              <div class="cartao text-center">
+                  <div class="cartao-cabecalho text-uppercase">
+                      <h1 class="text-uppercase">Entre em Contato</h1>
+                  </div>
+  
+              <div class="corpo-cartao">
+                  <form>
+                      <!-- #Inicio - Grupo de Caixas de Texto -->
+                      <div class="input-group my-3">
+                          <div class="input-group prepend">
+                              <span class="input-group-text" id="input-text">
+                                  <i class="fas fa-user"></i>
+                              </span>
+                              <input type="text" id="text" class="form-control form-control-lg" placeholder="Informe o seu nome aqui...">
+                          </div>
+                      </div>
+                      <!-- #Fim - Grupo de Caixas de Texto -->
+  
+                      <!-- #Inicio - Grupo de Caixas de Texto -->
+                      <div class="input-group my-3">
+                          <div class="input-group prepend">
+                              <span class="input-group-text" id="input-telefone">
+                                  <i class="fas fa-phone"></i>
+                              </span>
+                              <input type="text" id="telefone" class="form-control form-control-lg" placeholder="Informe o seu telefone aqui...">
+                          </div>
+                      </div>
+                      <!-- #Fim - Grupo de Caixas de Texto -->
+  
+                      <!-- #Inicio - Grupo de Caixas de Texto -->
+                      <div class="input-group my-3">
+                              <div class="input-group prepend">
+                                  <span class="input-group-text" id="input-email">
+                                      <i class="fas fa-envelope"></i>
+                                  </span>
+                                  <input type="text" id="email" class="form-control form-control-lg" placeholder="Informe o seu e-mail aqui...">
                               </div>
-                              <!-- #Fim - Grupo de caixas de texto -->
-
-                              <!-- #Início - Grupo de caixas de texto -->
-                              <div class="input-group my-3">
-                                <div class="input-group prepend">
-                                    <span class="input-group-text" id="input-telefone">
-                                        <i class="fas fa-phone"></i>
-                                    </span>    
-                                    <input type="text" id="telefone" class="form-control form-control-lg" placeholder="Informe o seu telefone aqui...">
-                                </div>
+                          </div>
+                      <!-- #Fim - Grupo de Caixas de Texto -->
+  
+                      <!-- #Inicio - Grupo de Caixas de Texto -->
+                      <div class="input-group my-3">
+                              <div class="input-group prepend">
+                              <textarea rows="5" class="form-control form-control-lg" id="mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
                               </div>
-                              <!-- #Fim - Grupo de caixas de texto -->
+                          </div>
+                      <!-- #Fim - Grupo de Caixas de Texto -->
+  
+                      <button type="submit" class="btn btn-block text-uppercase contato-btn"><i class="far fa-hand-point-right mr-2"></i>Enviar</button>
+                  </form>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+  </section>
+  <!-- #Fim Contato-->
 
-                              <!-- #Início - Grupo de caixas de texto -->
-                              <div class="input-group my-3">
-                                <div class="input-group prepend">
-                                    <span class="input-group-text" id="input-email">
-                                        <i class="fas fa-envelope"></i>
-                                    </span>    
-                                    <input type="text" id="email" class="form-control form-control-lg" placeholder="Informe o seu email aqui...">
-                                </div>
-                              </div>
-                              <!-- #Fim - Grupo de caixas de texto -->
 
-                              <!-- #Início - Grupo de caixas de texto -->
-                              <div class="input-group my-3">
-                                <div class="input-group prepend">
-                                    <textarea rows="5" class="form-control form-control-lg" id="mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
-                                </div>
-                              </div>
-                              <!-- #Fim - Grupo de caixas de texto -->
 
-                              <button type="submit" class="btn btn-block btn-lg text-uppercase contato-btn"><i class="fas fa-hand-point-right mr-2"></i>Enviar</button>
-                            </form>
-                        </div>
-                    </div>
+  <!-- #INCIO - RODAPE -->
+  <footer>
+    <div class="container-fluid p-2 info" id="icones-topo">
+        <div class="row">
+            <div class="col d-flex justify-content-center justify-content-md-between justify-content-sm-between align-items-baseline flex-wrap">
+                <div class="p-2 info-icones">
+                    <a href="#" class="mr-2" alt="facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href="#" class="mr-2" alt="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class="mr-2" alt="twitter"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    <a href="#" class="mr-2" alt="whatsapp"><i class="fab fa-whatsapp-square fa-2x"></i></a>
                 </div>
             </div>
+
+            <h2 id="copyright" class="p-2 text-capitalize"><a href="#" title="Voltar ao Início">&copy;Copyright 2018</a></h2>
+
         </div>
-    </section>
+    </div>
+
+    <!-- Botão Retornar ao Topo -->
+    <a href="#icones-topo" id="voltar-topo" class="p-1" title="Voltar ao Topo" ><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+</footer>
+<!-- #FIM - RODAPE -->
 
     
 
@@ -550,7 +573,7 @@
     <script src="js/jquery-3.3.1.min.js"></script>
 
     <!-- Bootstrap JS -->
-    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- Efeito de Fumaça -->
     <script src="js/jquery.ripples-min.js"></script>

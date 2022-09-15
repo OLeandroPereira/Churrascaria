@@ -503,11 +503,36 @@ header {
   background: #391005;
   border-color: #f1c70a;
   transition: all 0.5s ease-in-out;
-  width: 100%;
 }
 
 .contato-btn:hover {
   background: #f1c70a;
   border-color: #391005;
   color: #391005;
+}
+
+#copyright {
+  font-family: "Lobster", cursive;
+  color: #f4f1cb;
+  font-size: 1.3rem;
+}
+
+#copyright a {
+  text-decoration: none;
+}
+
+#voltar-topo {
+  color: #9F492F;
+  display: inline-block;
+  transition: 0.5s ease;
+}
+
+#voltar-topo:hover {
+  color: #f1c70a;
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
 }/*# sourceMappingURL=principal.css.map */
