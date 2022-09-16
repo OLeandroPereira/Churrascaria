@@ -59,7 +59,7 @@
                 <strong>Rodízio</strong>
               </h1>
 
-              <a href="#" class="btn pedir-btn my-2 text-capitalize" class="trigger-btn" data-toggle="modal">Faça seu pedido</a>
+              <a href="#pedidoModal" class="btn pedir-btn my-2 text-capitalize" class="trigger-btn" data-toggle="modal">Faça seu pedido</a>
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@
         </ul>
 
         <form class="form-inline d-none d-lg-block mr-5">
-          <a href="#" class="btn nav-btn text-capitalize" class="trigger-btn" data-toggle="modal">Pedir Agora</a>
+          <a href="#pedidoModal" class="btn nav-btn text-capitalize" class="trigger-btn" data-toggle="modal">Pedir Agora</a>
         </form>
       </div>
     </nav>
@@ -543,7 +543,7 @@
                 </div>
             </div>
 
-            <h2 id="copyright" class="p-2 text-capitalize"><a href="#" title="Voltar ao Início">&copy;Copyright 2018</a></h2>
+            <h2 id="copyright" class="p-2 text-capitalize"><a href="#" title="Voltar ao Início">&copy;Copyright 2022</a></h2>
 
         </div>
     </div>
@@ -553,7 +553,51 @@
 </footer>
 <!-- #FIM - RODAPE -->
 
-    
+  
+
+
+
+
+
+<!-- #INÍCIO - PEDIDO MODAL -->
+<div id="pedidoModal" class="modal fade">
+    <div class="modal-dialog modal-pedido">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="avatar">
+                    <img src="/img/pedir.png" alt="Ícone da Tela de Pedido Online">
+                </div>
+                <h4 class="modal-title">Pedido Online</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="nome" placeholder="Digite o seu nome aqui..." required="required">
+                    </div>
+
+                    <div class="form-group">
+                      <textarea rows="3" class="form-control" name="pedido" placeholder="O que você gostaria de pedir?" required="required"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-lo btn-block login-btn">Pedir</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- #FIM - PEDIDO MODAL -->
 
 
 
